@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    em-zeromq (0.4.2)
+      eventmachine (>= 1.0.0)
+      ffi (>= 1.0.0)
+      ffi-rzmq (~> 1.0.1)
+    eventmachine (1.0.3)
+    ffi (1.9.3)
+    ffi-rzmq (1.0.3)
+      ffi
+    ruby-trade (0.4)
+      em-zeromq
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ruby-trade
